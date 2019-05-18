@@ -1,0 +1,32 @@
+
+* TODO short term
+
+** TODO reader returns a lambda?
+   Does this reader return a function definition?  Does it return code
+   that will then be used to generate function definition?
+
+** TODO mapcar a function over the lexical passes results
+   The mapcar functional parameter will handle the complications of
+   appending to a stringstream
+
+* TODO mid term
+
+** TODO Move my resume over to this
+
+** TODO A website for generating canned responses
+
+
+
+* TODO long term
+
+* TODO create a file reader that simply spits out to a stream
+
+* TODO put up onto github
+
+* TODO create latex documenation from this system
+
+* TODO create a command line version
+
+
+
+
