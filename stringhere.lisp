@@ -144,28 +144,3 @@
   (enable-txt-syntax)
   )
 
-#+nil(progn
-  (enable-txt-syntax)
-
-  (defun tst (n)
-    (dotimes (i n)  #{item{,(format t "~a" i)}}))
-
-  (deftest latex-item-string ()
-    (with-output-to-string (*standard-output*)
-      (is (tst 3) "item{0}item{1}item{2}")))
-
-  (deftest latex1 ()
-    (is (with-output-to-string (*standard-output*)
-	  #{typedef struct a {
-	  int32u i			;
-	  int16u u
-	  } x				;}
-	  )
-	"typedef struct a {
-    int32u i;
-    int16u u
-    } x;")
-    )
-
-  (disable-txt-syntax)
-  )
