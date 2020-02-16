@@ -4,4 +4,5 @@ export SHELL=/bin/bash
 maketest: maketest.ros
 	ros -Q build $^
 
-
+clean:
+	- rm maketest
