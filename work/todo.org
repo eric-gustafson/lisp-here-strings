@@ -21,8 +21,6 @@
 
 * TODO create a file reader that simply spits out to a stream
 
-* TODO put up onto github
-
 * TODO create latex documenation from this system
 
 * TODO create a command line version
